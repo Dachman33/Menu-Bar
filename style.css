@@ -1,0 +1,53 @@
+*{
+    padding:0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: "Rubick",sans-serif;
+}
+
+.container{
+    background: #2A6383;
+    width:100% ;
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 10s;
+
+}
+
+nav{
+    border-radius: 50px;
+    background: #fff;
+    padding:15px 14px ;
+    transition: background 5s, padding 5s, border 5s, transform 3s;
+    transform: rotate(720deg);
+    
+    
+}
+button{
+    padding:15px 14px ;
+}
+nav ul li{
+    display: inline-block;
+    font-weight:600 ;
+    list-style:  none;
+    padding:14px 35px;
+    color:rgb(72,72,72);
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;;
+    transition: color 0.5s;
+    visibility: visible;
+    transform: rotate(7200deg);
+    transition: transform 3s;
+    
+}
+nav ul li:hover{
+    color:#fff ;
+    background-color: rgb(3, 30, 54);
+    border-radius: 50px;
+}
+button{
+    display: none;
+}
